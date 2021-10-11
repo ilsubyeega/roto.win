@@ -1,0 +1,126 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+html,
+body {
+    background: url("../image/freestocks-kVv8AvoKJ7g-unsplash.jpg") center center / cover no-repeat fixed;
+    margin: 0;
+    height: 100%;
+}
+
+.logo {
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mid-container {
+    margin-top: 200px;
+    width: 280px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+margin-bottom {
+    height: 1px;
+    margin-bottom: 19px;
+}
+
+.link-item {
+    width: 260px;
+    height: 60px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    transition: all 0.5s;
+}
+
+.link-item:hover,
+.link-item:focus {
+    background: rgba(100, 100, 100, 0.4);
+}
+
+.link-item icon {
+    border-radius: 10rem;
+    background: rgba(196, 196, 196, .2);
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.link-item icon i {
+    font-size: 20px;
+    height: 20px;
+}
+
+.link-item information {
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.link-item information name {
+    display: flex;
+    font-weight: 200;
+}
+
+.link-item information name i {
+    font-size: 13px;
+    margin-left: 5px;
+    margin-top: 3px;
+    transition: all .3s;
+}
+
+.link-item:hover information name i,
+.link-item:focus information name i {
+    margin-left: 10px;
+}
+
+.link-item information url {
+    color: #A8A8A8;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+* {
+    text-decoration: none;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    color: white;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    gap: 10px;
+}
+
+footer a {
+    transition: all .3s;
+    font-size: 30px;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, .6)
+}
