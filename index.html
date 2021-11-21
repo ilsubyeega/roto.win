@@ -8,12 +8,25 @@
     <meta name="keywords" content="rotowin, rotoblur" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <script src="scripts/dday.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            window.initdday()
+        });
+    </script>
 </head>
 
 <body>
     <div class="align-center">
         <!-- logo -->
         <img class="logo" src="image/logos/2021-merry-christmas.png">
+        <announcement class="none">
+            <text>ANNOUNCEMENT</text>
+            <description>
+                2021 크리스마스 화이트 크리스마스면 좋겠당
+            </description>
+        </announcement>
+        <margin-bottom></margin-bottom>
         <div class="mid-container">
             <a class="link-item" href="#" id="todo">
                 <icon>
@@ -45,6 +58,13 @@
                 </information>
             </a>
         </div>
+        <margin-bottom></margin-bottom>
+        <d-day-list>
+            <d-day>
+                <days>Loading...</days>
+            </d-day>
+        </d-day-list>
+
     </div>
     <footer>
         <a class="bi bi-github" href="https://github.com/ilsubyeega/roto.win"></a>

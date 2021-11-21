@@ -4,7 +4,6 @@ html,
 body {
     background: url("../image/backgrounds/roberto-nickson-5PQn41LFsQk-unsplash.jpg") center center / cover no-repeat fixed;
     margin: 0;
-    height: 100%;
 }
 
 .logo {
@@ -20,8 +19,55 @@ body {
     height: 100%;
 }
 
+.none {
+    opacity: 0;
+}
+
+announcement {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    opacity: 1;
+}
+
+announcement text {
+    font-weight: 600;
+}
+
+announcement description {
+    font-weight: 200;
+}
+
+d-day-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+d-day {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    margin: 20px 10px 20px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+d-day text {
+    font-weight: 400;
+}
+
+d-day days {
+    font-weight: 200;
+}
+
 .mid-container {
-    margin-top: 200px;
     width: 280px;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(4px);
