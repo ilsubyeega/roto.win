@@ -3,6 +3,5 @@ This is a webpage created for the purpose of Landing Page for roto.win. Please [
 
 # LICENSE
 The code itself is MIT, however other assets may have other license.
-- [Unsplash](https://unsplash.com/) (Background, Free for commercial use)  
-The original background source can be accessed by the photo icon at the bottom left of the site.
+- [Unsplash Collection](https://unsplash.com/collections/MyR6VcnPrDE/roto.win-backgrounds) (Background, Free for commercial use)
 - [Pretendard](https://github.com/orioncactus/pretendard) (Font, OFL-1.1)
