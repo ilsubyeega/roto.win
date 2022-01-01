@@ -1,10 +1,11 @@
-const list = [{
-        name: 'Christmas',
-        date: new Date(1640358000000)
-    },
+const list = [
     {
         name: '2022',
-        date: new Date(1640962800000)
+        date: 1640962800000
+    },
+    {
+        name: 'Lunar new year (Seollal)',
+        date: 1643554800000
     }
 ];
 const construct = (text, date) => {
@@ -29,6 +30,6 @@ window.initdday = () => {
     const ddaylist = document.querySelector("body > div > d-day-list");
     ddaylist.textContent = ''; // Clearing child nodes.
     list.forEach(item => {
-        ddaylist.appendChild(construct(item.name, item.date));
+        ddaylist.appendChild(construct(item.name, new Date(item.date)));
     });
 }
