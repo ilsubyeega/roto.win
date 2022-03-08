@@ -1,13 +1,8 @@
-const list = [
-    {
-        name: '2022',
-        date: 1640962800000
-    },
-    {
-        name: 'Lunar new year (Seollal)',
-        date: 1643554800000
-    }
-];
+const list = [{
+    name: '2022',
+    date: 1640962800000
+}];
+
 const construct = (text, date) => {
     const node = document.createElement("d-day");
 
