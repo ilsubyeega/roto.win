@@ -1,7 +1,12 @@
 const list = [{
-    name: '2022',
-    date: 1640962800000
-}];
+        name: '2022',
+        date: 1640962800000
+    },
+    {
+        name: '1st exam',
+        date: 1650812400000
+    }
+];
 
 const construct = (text, date) => {
     const node = document.createElement("d-day");
