@@ -1,10 +1,26 @@
 const list = [{
         name: '2022',
-        date: 1640962800000
+        date: 1640962800
     },
     {
         name: '1st exam',
-        date: 1650812400000
+        date: 1650812400
+    },
+    {
+        name: 'mocked CSAT (june)',
+        date: 1654700400
+    },
+    {
+        name: '2nd exam',
+        date: 1656514800
+    },
+    {
+        name: 'mocked CAST (september)',
+        date: 1661871600
+    },
+    {
+        name: 'CSAT',
+        date: 1668610800
     }
 ];
 
@@ -30,6 +46,6 @@ window.initdday = () => {
     const ddaylist = document.querySelector("body > div > d-day-list");
     ddaylist.textContent = ''; // Clearing child nodes.
     list.forEach(item => {
-        ddaylist.appendChild(construct(item.name, new Date(item.date)));
+        ddaylist.appendChild(construct(item.name, new Date(item.date * 1000)));
     });
 }
