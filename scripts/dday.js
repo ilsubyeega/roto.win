@@ -15,7 +15,7 @@ const list = [{
         date: 1656514800
     },
     {
-        name: 'mocked CAST (september)',
+        name: 'mocked CSAT (september)',
         date: 1661871600
     },
     {
