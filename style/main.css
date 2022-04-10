@@ -45,6 +45,8 @@ d-day-list {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0px 40px 0px
 }
 
 d-day {
@@ -53,7 +55,7 @@ d-day {
     padding: 10px;
     border-radius: 5px;
     border: 2px solid rgba(255, 255, 255, 0.2);
-    margin: 20px 10px 20px 10px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     gap: 5px;
