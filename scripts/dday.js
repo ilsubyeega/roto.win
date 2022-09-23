@@ -3,24 +3,12 @@ const list = [{
         date: 1640962800
     },
     {
-        name: '1st exam',
-        date: 1650812400
-    },
-    {
-        name: 'mocked CSAT (june)',
-        date: 1654700400
-    },
-    {
-        name: '2nd exam',
-        date: 1656514800
-    },
-    {
-        name: 'mocked CSAT (september)',
-        date: 1661871600
-    },
-    {
         name: 'CSAT',
         date: 1668610800
+    },
+    {
+        name: '2023',
+        date: 1672498800
     }
 ];
 
