@@ -23,7 +23,7 @@ const construct = (text, date) => {
 
     // TODO: Need to fix date calculation.
     const calc = Math.floor(diff / (1000 * 60 * 60 * 24));
-    datenode.textContent = calc == 0 ? 'D-DAY' : `D${calc >= 0 ? '+' : ''}${calc}`;
+    datenode.textContent = calc === 0 ? 'D-DAY' : `D${calc >= 0 ? '+' : ''}${calc}`;
 
     node.appendChild(textnode);
     node.appendChild(datenode);
